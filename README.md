@@ -1,7 +1,7 @@
 # Prime Numbers
 - Prints all the prime numbers
 - You can set the starting number
-- Its optmized 
+- Its optimized 
 
 # Optimization
 - At line 5 (five). I set the number = number+2 because a even number can't be prime, so there's no need to check
