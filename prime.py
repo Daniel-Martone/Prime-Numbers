@@ -1,9 +1,8 @@
-number = 1_000_000
+number = 1_000_000 # Sets the starting number
 if number % 2 == 0:
-    number += 1
-print('2')
+    number += 1 
 while True:
-    number += 4
+    number += 2
     is_prime = True
     for c in range(2, number//2):
         if number % c == 0:
@@ -11,4 +10,3 @@ while True:
             break
     if is_prime:
         print(number)
-    
